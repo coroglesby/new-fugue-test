@@ -1,0 +1,18 @@
+title: fugue
+description: literary journal
+author: fugue
+pub_year: 2019
+
+repo: https://github.com/coroglesby/new-fugue-test
+url: https://coroglesby.github.io
+baseurl: /new-fugue-test
+
+search: true
+
+defaults:
+  - scope:
+      path: "content"
+    values:
+      layout: "default"
+
+markdown: kramdown
